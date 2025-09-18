@@ -1,0 +1,45 @@
+
+https://github.com/mhc-anik/
+
+
+# create a new repository on the command line
+----------------------------------------------------------------------------
+
+echo "# Flutter_With_Ostad" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mhc-anik/Flutter_With_Ostad.git
+git push -u origin main
+
+===========================
+creating Windows app :
+command for terminal
+--------------------------
+flutter build windows
+===========================
+
+===========================
+Command for fvm
+--------------------------
+// fvm list
+fvm list
+
+// for checking fvm All Releases
+fvm releases
+
+// for install fvm version
+fvm install 3.35.2
+
+// use version for this project
+// have to use command from cmd as administrator
+fvm use 3.35.2
+
+// fvm flutter pub get
+fvm flutter pub get
+
+// fvm flutter pub run build_runner build
+dart pub global activate fvm
+
+===========================
