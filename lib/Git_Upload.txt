@@ -5,12 +5,11 @@ https://github.com/mhc-anik/
 # create a new repository on the command line
 ----------------------------------------------------------------------------
 
-echo "# Flutter_With_Ostad" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/mhc-anik/Flutter_With_Ostad.git
+git remote add origin https://github.com/mhc-anik/Flutter_Project.git
 git push -u origin main
 
 ===========================
