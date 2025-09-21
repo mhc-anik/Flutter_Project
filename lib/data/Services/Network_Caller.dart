@@ -49,7 +49,12 @@ class ApiCaller {
       Uri uri = Uri.parse(url);
       _logRequest(url,body: body);
 
-      Response response = await post(uri);
+      Response response = await post
+        (
+          uri,
+          headers: {'Content-Type': 'application/json'},
+          body: jsonEncode(body),
+        );
       _logResponse(url, response);
 
 
@@ -94,8 +99,6 @@ class ApiCaller {
         "Body : ${response.body}"
     );
   }
-
-
 }
 
 class ApiResponse {
